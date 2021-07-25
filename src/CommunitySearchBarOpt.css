@@ -1,0 +1,29 @@
+.commuSearchBarOpt__container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.commuSearchBarOpt__container > .MuiSvgIcon-root {
+  padding: 20px;
+}
+
+.commuSearchBarOpt__container > h2 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.commuSearchBarOpt__iconHover {
+  margin-bottom: 1rem;
+}
+.commuSearchBarOpt__iconHover :hover {
+  background-color: var(--community-background);
+  border-radius: 30px;
+  color: var(--community-color);
+  margin-bottom: 1rem;
+  transition: color 200ms ease-in-out;
+}
+.commuSearchBarOpt--active {
+  background-color: var(--community-background);
+  color: var(--community-color);
+  border-radius: 30px;
+}

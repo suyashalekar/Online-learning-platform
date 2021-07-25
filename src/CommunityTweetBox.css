@@ -1,0 +1,42 @@
+.tweetBox {
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--community-background);
+  padding-right: 10px;
+}
+.tweetBox > form {
+  display: flex;
+  flex-direction: column;
+}
+.tweetBox__input {
+  display: flex;
+  padding: 20px;
+}
+.tweetBox__input > input {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+.tweetBox__imageUrl {
+  /* border: 2px solid black; */
+  display: flex;
+  height: 30px;
+  margin: 0 10px 15px 23px;
+}
+.tweetBox__imageUrl > input {
+  border: none;
+  outline: none;
+  /* flex: 1; */
+  width: 100%;
+  border-bottom: 1px solid var(--community-background);
+}
+.tweetBox__button {
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  margin-left: 10px !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  color: var(--community-color) !important;
+  outline: 0 !important;
+}

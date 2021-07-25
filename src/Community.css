@@ -1,0 +1,9 @@
+.community {
+  display: flex;
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 0 10px;
+  height: 100vh;
+  border: 2px solid var(--community-background);
+  /* flex-wrap: wrap; */
+}

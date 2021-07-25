@@ -1,0 +1,38 @@
+.communityTwitter {
+  flex: 0.4;
+  border-left: 2px solid var(--community-background);
+  padding-left: 20px;
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+
+/* hide scrollbar in chrome , safari */
+.communityTwitter::-webkit-scrollbar {
+  display: none;
+}
+.communityTwitter {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.communityTwitter__input {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.communityTwitter__searchIcon {
+  color: gray !important;
+}
+.communityTwitter__input > input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.communityTwitter__container {
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 20px 0px 20px 17px;
+  width: 80%;
+}

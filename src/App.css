@@ -1,0 +1,20 @@
+body {
+  --community-color: #ff7779;
+  --community-background: #e6ecf086;
+}
+.app__container {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+  height: 80vh;
+  /* border: 2px solid black; */
+  /* justify-content: center; */
+}
+.app__TeacherDashboardSideBar {
+  flex: 0.2;
+}
+.app__TeacherDashboard {
+  flex: 0.8;
+  height: 100vh;
+  /* border: 2px solid black; */
+}

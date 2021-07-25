@@ -1,0 +1,7 @@
+.communitySideBar {
+  flex: 0.2;
+  margin-top: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 2px solid var(--community-background);
+}
